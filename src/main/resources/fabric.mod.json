@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "bigdoorscollisionfabric",
+  "version": "${version}",
+  "name": "BigDoorsCollisionFabric",
+  "description": "Modifies the shulker model to allow them to be invisible when used in the plugin BigDoorsCollision",
+  "authors": [
+    "bonn2"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/BigDoorsCollisionFabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "bonn2.bigdoorscollisionfabric.Main"
+    ]
+  },
+  "mixins": [
+    "BigDoorsCollisionFabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "bonn2.bigdoorscollisionfabric.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
