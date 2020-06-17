@@ -17,7 +17,6 @@ public class ShulkerEntityRenderer extends net.minecraft.client.render.entity.Sh
         if (shulkerEntity.getName().getString().equals("BigDoorsCollision")) {
             return false;
         } else {
-            System.out.println(shulkerEntity.getName().getString());
             return super.shouldRender(shulkerEntity, frustum, d, e, f);
         }
     }
